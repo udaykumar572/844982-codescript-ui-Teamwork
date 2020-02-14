@@ -1,0 +1,279 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <title>IIHT PROJECT</title>
+
+ <meta charset="utf-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+ <style>
+
+ .bg-img{
+
+background-image:url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+ height: 700px;
+
+ background-position: center;
+
+ background-repeat: no-repeat;
+
+ background-size: cover;}
+
+.centered {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+ }
+
+.p{position:relative;text-align:center;}
+
+.sidenav {
+
+ height: 100%;
+
+ width: 0;
+
+ position: fixed;
+
+ z-index: 1;
+
+ top: 0;
+
+ left: 0;
+
+ background-color: white;
+
+ overflow-x: hidden;
+
+ transition: 0.5s;
+
+ padding-top: 60px;
+
+}
+.body
+{
+  color: red;
+}
+
+
+
+.sidenav a {
+
+ padding: 8px 8px 8px 32px;
+
+ text-decoration: none;
+
+ font-size: 25px;
+
+ color: darkgray;
+
+ display: block;
+
+ transition: 0.3s;
+
+}
+
+
+
+.sidenav a:hover {
+
+ color: #f1f1f1;
+
+}
+
+
+
+.sidenav .closebtn {
+
+ position: absolute;
+
+ top: 0;
+
+ right: 25px;
+
+ font-size: 36px;
+
+ margin-left: 50px;
+
+}
+
+
+
+@media screen and (max-height: 450px) {
+
+ .sidenav {padding-top: 15px;}
+
+ .sidenav a {font-size: 18px;}
+
+}
+
+ </style>
+
+</head>
+
+<body>
+
+<br>
+
+
+
+<div class="bg-img">
+
+<div class="text-center" style="margin-bottom:20 margin-top:30">
+  <div>
+<div class="logo">
+  <img class="roundedcircle"  src="logo.png" alt="" width="130" align="left">
+  </div>
+ <h1>ONE GYM</h1>
+
+ <p>Be Like Born to be FIT</p>
+
+</div>
+
+<br>
+<br>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+ <a class="navbar-brand" href="#"></a>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+  <span class="navbar-toggler-icon"></span>
+
+ </button>
+
+ <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <ul class="navbar-nav">
+
+   <li class="nav-item">
+
+    <a class="nav-link" href="#">Home</a>
+
+   </li>
+
+   <li class="nav-item">
+
+    <a class="nav-link" href="registers.html">PlaceAppointment</a>
+
+   </li>
+
+   <li class="nav-item">
+
+    <a class="nav-link" href="views.html">ViewAppointment</a>
+
+   </li>
+
+<li class="nav-item">
+
+    <a class="nav-link" href="contact.html">Contact Us</a>
+
+   </li>
+
+  </ul>
+
+ </div>
+
+
+
+<div id="mySidenav" class="sidenav" align="left">
+
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ <a href="#">Home</a>
+
+ <a href="registers.html">place appointment</a>
+
+ <a href="views.html">view appointment</a>
+
+ <a href="contact.html">Contact us</a>
+
+</div>
+
+<span style="font-size:30px;cursor:pointer;font-color:white" onclick="openNav()" align="left">&#9776; </span>
+
+</nav>
+
+<script>
+
+function openNav() {
+
+ document.getElementById("mySidenav").style.width = "250px";
+
+}
+
+
+
+function closeNav() {
+
+ document.getElementById("mySidenav").style.width = "0";
+
+}
+
+</script>
+
+
+
+
+
+<div class="container" style="margin-top:30px">
+
+ <div class="row">
+
+
+
+  </div>
+    
+      
+      <div class="col-sm-8">
+        <h1>Hello Guys!!</h1><br>
+        <p>“The harder you work for something, the greater you will feel when you achieve it.” “Fitness is like a marriage you can't cheat on it and expect it to work.” “Never give up greatness take time.” “Your success is determined by what you are willing to sacrifice for it.”
+        </p>
+        
+      </div>
+   <p><a class="btn btn-primary btn-log" href="registers.html">Hit to Register</a></p>
+
+</div>
+
+ </div>
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+</body>
+
+</html>
+
